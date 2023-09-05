@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "paths": {
+    "/create/application": {
+      "name": "/create/application",
+      "lambdaFunction": "ApplicationHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/create/requirement": {
+      "name": "/create/requirement",
+      "lambdaFunction": "RequirementHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    },
+    "/ping": {
+      "name": "/ping",
+      "lambdaFunction": "pong",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

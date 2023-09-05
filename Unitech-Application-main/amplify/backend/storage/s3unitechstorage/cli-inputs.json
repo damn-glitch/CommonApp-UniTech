@@ -1,0 +1,11 @@
+{
+  "resourceName": "s3unitechstorage",
+  "bucketName": "unitech-storage",
+  "policyUUID": "7fabc7f2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ]
+}

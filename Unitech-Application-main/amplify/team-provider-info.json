@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-unitech-dev-183639-authRole",
+      "UnauthRoleArn": "arn:aws:iam::287906964312:role/amplify-unitech-dev-183639-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::287906964312:role/amplify-unitech-dev-183639-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-unitech-dev-183639-deployment",
+      "UnauthRoleName": "amplify-unitech-dev-183639-unauthRole",
+      "StackName": "amplify-unitech-dev-183639",
+      "StackId": "arn:aws:cloudformation:ap-south-1:287906964312:stack/amplify-unitech-dev-183639/5f615700-0382-11ed-847a-02b717138f62",
+      "AmplifyAppId": "d2ypjoylsjz2zs",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-unitech-dev-183639-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {},
+        "unitech": {}
+      },
+      "function": {
+        "ApplicationHandler": {
+          "deploymentBucketName": "amplify-unitech-dev-183639-deployment",
+          "s3Key": "amplify-builds/ApplicationHandler-70307953574c79595243-build.zip"
+        },
+        "RequirementHandler": {
+          "deploymentBucketName": "amplify-unitech-dev-183639-deployment",
+          "s3Key": "amplify-builds/RequirementHandler-6150426745706c72652f-build.zip"
+        },
+        "pong": {
+          "deploymentBucketName": "amplify-unitech-dev-183639-deployment",
+          "s3Key": "amplify-builds/pong-6f6843636c594b2f5570-build.zip"
+        }
+      }
+    }
+  }
+}

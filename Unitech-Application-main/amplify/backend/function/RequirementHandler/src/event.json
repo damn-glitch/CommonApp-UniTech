@@ -1,0 +1,9 @@
+{
+  "RequirementName": "Something",
+  "RequirementType": "STRING",
+  "RequirementAttributes": {
+    "minlength": 1,
+    "maxlength": 10,
+    "regex": "[a-zA-Z]+"
+  }
+}
